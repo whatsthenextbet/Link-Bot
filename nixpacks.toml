@@ -1,0 +1,11 @@
+[phases.setup]
+command = "pip install --upgrade pip && pip install -r requirements.txt"
+
+[phases.install]
+command = ""
+
+[phases.build]
+command = ""
+
+[phases.start]
+command = "gunicorn app:app"
